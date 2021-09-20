@@ -98,6 +98,10 @@ Java Boot Camp
 				Iteraion order is FIXED
 
 
+9. Custom Methods: function.
+				   grouping A SERIES OF CODE FRAGMENTS
+
+				   improves the reusability of the codes
 
 
 
