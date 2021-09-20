@@ -3,8 +3,8 @@ package day01;
 import java.util.Arrays;
 import java.util.List;
 
-public class CustomMethods<T> {  // T: Dynamic Type
-
+public class CustomMethods<T> {  // T: Dynamic Type==> can work with multiple types
+// generics ===> Type safety
 
     public T max(T[] arr){
         Arrays.sort(arr);
