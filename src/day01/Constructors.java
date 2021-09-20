@@ -6,7 +6,9 @@ class Person{
 
     public String name;
     public char gender;
-    public LocalDate dateOfBirth;
+    public LocalDate dateOfBirth; //LocalDate--> year-month-day
+                                  //LocalTime-->  Hours-minutes-seconds
+                                  //LocalDateTime--> year-month-day  Hours-minutes-seconds
     public static boolean isHuman = true;
 
     public Person(String name, char gender, LocalDate dateOfBirth) {
