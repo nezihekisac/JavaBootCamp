@@ -44,6 +44,17 @@ public class ArraysPractice {
 
         System.out.println();
 
+        System.out.println("---------------------------------------");
+
+        char[] ch1 = {'A', 'B', 'C', 'D', 'E'};
+
+        for (int i = 0; i < ch1.length; i++) {
+            System.out.print(ch1[i]);
+        }
+
+        System.out.println();
+
+        System.out.println("--------------------------------------");
 
 
     }
