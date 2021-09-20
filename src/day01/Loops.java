@@ -16,6 +16,18 @@ public class Loops {
             i++;
         }
 
+        System.out.println("---------------------------------------");
+
+        for(int k = 0; k <5; k++){
+            for(int j = 0; j < 5; j++ ){
+                System.out.print("EU5 ");
+            }
+            System.out.println();
+        }
+
+
+
+
 
     }
 
