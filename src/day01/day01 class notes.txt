@@ -73,6 +73,20 @@ Java Boot Camp
 	process:  application
 
 
+6. Loops: repeated action
+
+		for loop:
+			for(initialization; Conidition; Iterator){
+				statements
+			}
+
+
+		while loop:
+
+			while(condition){
+				statements
+			}
+
 
 
 
