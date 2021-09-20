@@ -49,10 +49,39 @@ public class CustomMethods<T> {  // T: Dynamic Type==> can work with multiple ty
         CustomMethods<String> stringArray = new CustomMethods<>();
 
         stringArray.reverse(names);
-
-
+        
+        
+        String str = "Java";
+        //str.substring
+        
+        
 
     }
+    
+    public static int min(int[] arr){
+        Arrays.sort(arr);
+        return arr[0];
+    }
+    
+    public static double min(double[] arr){
+        Arrays.sort(arr);
+        return arr[0];
+    }
+
+    public static short min(short[] arr){
+        Arrays.sort(arr);
+        return arr[0];
+    }
+
+    public static byte min(byte[] arr){
+        Arrays.sort(arr);
+        return arr[0];
+    }
+    
+    
+
+
+    
 
 
 
