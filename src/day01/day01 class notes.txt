@@ -1,0 +1,78 @@
+09/20/2021
+Java Boot Camp
+	
+	Topics:
+		1. Primitives: int, double, char, boolean
+		2. Primitive Type Castings: Implicit vs Explicit
+		3. Wrapper class
+		4. String
+		5. String vs StringBuilder vs StringBuffer
+		6. Loops: for & while
+		7. Array
+		8. for each loop
+		9. Custom Methods
+		10. Method Overloading
+		11. Constructor
+		12. Class & Objects
+		13. Static vs Instance
+		14. Import Statements
+		15. Access Modifiers
+		16. OOP Encapsulations
+		17. OOP Inheritance
+		18. Is A vs Has A
+		19. Method Overriding
+		20. Final keyword
+		21. OOP Abstraction
+		22. Abstract Class vs Interface
+		23. OOP Polymorphism
+		24. Reference Type Castings: Upcasting vs DownCasting
+		25. Exceptions: checked & unchecked
+		26. Exception Handlings
+		27. final vs finally vs finalize
+		28. garbage collection & garbage collector
+		29. Collections: List, Set, Queue
+		30. Iteable & Iterator
+		31. Maps
+
+
+1. primitives:
+		byte < short < int < long < float < double
+		char, boolean
+
+2.
+		implicit casting: casting smaller type to larger
+
+		explicit casting: casting larger type to smaller type
+
+
+3. Wrapper class: the objects that represents the primitives
+			
+			Byte, Short, Integer, Long, Float, Double, Character, Boolean
+
+
+4. String: immutable version of char sequences
+			
+			"Java"
+			 0123
+
+		 Methods: charAt, length, lowerCase & upperCase, substring, equals, contains, startsWith, endsWith, split, toCharArray
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
