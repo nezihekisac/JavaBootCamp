@@ -87,6 +87,10 @@ Java Boot Camp
 				statements
 			}
 
+7. Array: fixed size
+		  supports primitives & non primitives
+		  can be multi-dimensional
+		  has index
 
 
 
