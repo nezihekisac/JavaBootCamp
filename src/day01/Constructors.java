@@ -34,15 +34,10 @@ public class Constructors {
     public static void main(String[] args) {
 
         Person person1 = new Person("Ahmet", 'M', LocalDate.of(1990, 5,1));
-
-        System.out.println("person1 = " + person1);
-
-        System.out.println(person1.dateOfBirth);
-        System.out.println(Person.isHuman);
-
         Person person2 = new Person("Josh", 'M', LocalDate.of(1991, 5,1));
         Person person3 = new Person("Aaron", 'M', LocalDate.of(1992, 5,1));
 
+        System.out.println("person1 = " + person1);
         System.out.println("person2 = " + person2);
         System.out.println("person3 = " + person3);
 

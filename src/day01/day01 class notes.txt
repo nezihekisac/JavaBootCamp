@@ -133,6 +133,12 @@ Java Boot Camp
 		 		new Constructor
 
 
+ 		BasePage:
+ 			public Constructor(){
+ 				PageFactory.InitElemnt(  driver, this)
+ 			}
+
+ 			@FindBy
 
 
 12. class & object: class is a template of objects, where the objects are came from
@@ -140,7 +146,49 @@ Java Boot Camp
 					each object has its own memory
 
 
-13. Static vs Instance
+13. Static vs Instance:
+			static: belongs to the class. there is ONLY one copy for all objects
+			instance: belongs to the object. there are multiple copies. each objects has its own copy
+
+
+14. Import statemnts:
+			regular import:
+				import packageNames.ClassName;
+
+			static import: used for importing static variables & method ONLY
+				import static packageNames.ClassName.staticMember;
+
+
+15. Access Modifiers:   private < default < protected < public
+
+
+16. OOP: Object Oriented Programming		
+		code reusability	
+		centralized structure
+		easy to maintain
+		less duplication
+		less memory usage
+		clean
+
+	Encapsulation: data hiding by giving private AM
+				   use public getter/setter to read/write the private data
+
+				   getter: read ONLY
+				   setter: write ONLY
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
