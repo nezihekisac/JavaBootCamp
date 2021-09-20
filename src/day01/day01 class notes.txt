@@ -66,6 +66,7 @@ Java Boot Camp
 
 
 	synchronized: thread-safe ===> one thread at a time
+				disadvantage: slow
 
 	thread: sub sequence of process
 

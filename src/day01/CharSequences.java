@@ -18,10 +18,22 @@ public class CharSequences {
 
         System.out.println("-------------------------------------------------");
 
-        StringBuilder sb1 = new StringBuilder("Cybertek");
+        StringBuilder stringBuilder = new StringBuilder("Cybertek");
+        stringBuilder.append(" School"); // StringBuilder is mutable, methods can modify the original object
+        System.out.println(stringBuilder);
 
-        sb1.append(" School"); // StringBuilder is mutable, methods can modify the original object
-        System.out.println(sb1);
+        StringBuffer stringBuffer = new StringBuffer("Cybertek");
+        stringBuffer.append(" School");
+        System.out.println(stringBuffer);
+
+
+        stringBuilder.reverse();
+        stringBuffer.reverse();
+
+        System.out.println("stringBuilder = " + stringBuilder);
+        System.out.println("stringBuffer = " + stringBuffer);
+
+
 
    // come back at 11:30 am US EST
 
