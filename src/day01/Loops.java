@@ -25,7 +25,11 @@ public class Loops {
             System.out.println();
         }
 
+        System.out.println("----------------------------------------");
 
+        for (int k = 0; k < 10; k++) {
+
+        }
 
 
 
