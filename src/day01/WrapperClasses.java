@@ -24,6 +24,9 @@ public class WrapperClasses {
         System.out.println("r1 = " + r1);
         System.out.println("r2 = " + r2);
 
+        System.out.println(r1 * 2);
+        System.out.println(r2 * 3);
+
 
 
     }
