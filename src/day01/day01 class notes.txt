@@ -93,6 +93,10 @@ Java Boot Camp
 		  has index
 
 
+8. For Each loop: MUST be applied to data structures
+				number of repeating depends on the number data in the data structure
+				Iteraion order is FIXED
+
 
 
 

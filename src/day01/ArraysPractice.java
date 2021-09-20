@@ -56,6 +56,11 @@ public class ArraysPractice {
 
         System.out.println("--------------------------------------");
 
+        for (char each : ch1) {
+            System.out.println(each);
+        }
+
+
 
     }
 
