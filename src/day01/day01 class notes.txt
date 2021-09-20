@@ -135,8 +135,12 @@ Java Boot Camp
 
 
 
+12. class & object: class is a template of objects, where the objects are came from
+					Object is an instance of the class. object is REAL
+					each object has its own memory
 
 
+13. Static vs Instance
 
 
 
