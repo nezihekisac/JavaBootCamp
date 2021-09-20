@@ -33,9 +33,15 @@ public class CharSequences {
         System.out.println("stringBuilder = " + stringBuilder);
         System.out.println("stringBuffer = " + stringBuffer);
 
+        System.out.println("--------------------------------------------");
+
+        String str = "Java";
+        String result = new StringBuilder(str).reverse().toString();
+
+        System.out.println("result = " + result);
 
 
-   // come back at 11:30 am US EST
+
 
 
     }
