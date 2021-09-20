@@ -23,7 +23,7 @@ public class CharSequences {
         sb1.append(" School"); // StringBuilder is mutable, methods can modify the original object
         System.out.println(sb1);
 
-// come back at 11:30 am US EST
+   // come back at 11:30 am US EST
 
 
     }
