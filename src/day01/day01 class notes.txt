@@ -58,8 +58,18 @@ Java Boot Camp
 		 Methods: charAt, length, lowerCase & upperCase, substring, equals, contains, startsWith, endsWith, split, toCharArray
 
 
+5. StringBuilder & StringBuffer: mutable version of char sequences
+		
+		StringBuilder: not synchronized
+
+		StringBuffer: synchronized
 
 
+	synchronized: thread-safe ===> one thread at a time
+
+	thread: sub sequence of process
+
+	process:  application
 
 
 
