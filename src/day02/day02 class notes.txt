@@ -203,8 +203,7 @@ Java Boot Camp
 
 
 
-
-
+25. Exception chekced or unchecked
 
 
 
