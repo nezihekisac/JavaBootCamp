@@ -68,21 +68,31 @@ Java Boot Camp
 
 
 	CarTask
-			Car
+			ElectricCar:
+				charging()
+
+			LuxuryCar
+				massage();
+				seatHeater();
+				seatCooler();
+
+
+			Abstract Car
 				make, model, color, year, price..
 				drive(), toString()
 
 
-			Toyota
+			Toyota extends Car
 
+			Honda extends Car
 
-			Honda
+			Mercedes extends Car implements LucuryCar
 
-			Mercedes
+			BMW extends Car implements LucuryCar
 
-			BMW
+			Tesla extends Car implements LuXuryCar, ElectricCar
 
-			Tesla
+			Nio  extends Car implements LuXuryCar, ElectricCar
 
 
 
@@ -138,9 +148,22 @@ Java Boot Camp
 				 				  meant to be overriden (can not be final, private, static)
 
 				2 ways:
-					1. abstract class: meant to be super class
+					1. abstract class: meant to be super class (can not be final)
+									  can not create object
 
-					2. interface
+									  abstract class can have all the methods & variables of regualr class can have
+
+
+					2. interface: blueprint of the class, meant to be implemented (cannot final)
+									public is the only accessmodifier
+									cannot create object
+
+
+						ex:
+							WebDriver, WebElement, List, JavaScritpExecuter, TakeScreenShot...
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 package day02.inheritance_abstraction;
 
-public final class Mercedes extends Car{ //Mercedes Is A Car
+public final class Mercedes extends Car implements LuxuryCar{ //Mercedes Is A Car
 
     public Mercedes(int year, String model, String color, double price) {
         super(year, "Mercedes", model, color, price);
@@ -12,4 +12,8 @@ public final class Mercedes extends Car{ //Mercedes Is A Car
     }
 
 
+    @Override
+    public void massage() {
+
+    }
 }
