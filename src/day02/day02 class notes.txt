@@ -226,7 +226,14 @@ Java Boot Camp
 
 
 
-come back at 2:15 PM US EST
+27. final vs finally vs finalize:
+		
+		final: keyword
+
+		finally: block
+
+		finalize: method
+
 
 
 

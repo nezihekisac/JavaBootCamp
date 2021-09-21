@@ -32,9 +32,19 @@ public class ExceptionsPractice {
         Thread.sleep(3000);
 
         System.out.println("Test2 completed");
+        System.out.println("----------------------------");
 
+        try {
+            System.out.println("cybertek".charAt(2000));
+            System.out.println("Try block");
+        }catch (RuntimeException e){
+            System.out.println("Catch Block");
+            System.exit(0); // terminates everything
+        }finally {
+            System.out.println("Finally block");
+        }
 
-
+        System.out.println("Hello");
 
 
 
