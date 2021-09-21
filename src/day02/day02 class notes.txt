@@ -164,6 +164,52 @@ Java Boot Camp
 
 
 
+22. abstract class vs interface:
+			
+			one class can extend oen abstract class only
+			one class implement multiple interface
+			one interface can extend multiple interfaces
+
+
+
+23. Polymorphism: ability of the object taking on many forms
+				
+				parent being referenced to child objects
+
+				reference type decides whats accessible
+
+				object type decides which implementation to be executed
+
+		Driver
+			WebDriver getDriver(browserName){
+
+			}
+
+
+		WebDriver driver;
+		( (TakeScreenShot)driver ).takeScrenShot
+		( (JavaScriptExecuter)driver ).executerScript
+
+		List
+		Set
+
+
+
+24. reference type casting:
+			
+			up casting: casting the smaller type to larger type (automatically done)
+
+			down casting: casting the larger type to smaller type (manually done)
+
+
+
+
+
+
+
+
+
+
 
 
 
