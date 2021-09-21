@@ -18,3 +18,60 @@ Java Boot Camp
 		30. Iteable & Iterator
 		31. Maps
 
+
+17. Inheritance: Building IS A relation (parent & child) between classes
+			
+			Class X  extends  Class Y
+				 sub				super
+
+			Class Z extends Class Y
+				  sub			 super
+
+
+		  sub class: can inherit all the visible variables & methods from super class
+
+		  super class: can not inherit anything from sub class
+
+		  A class can only extend one class
+
+		  A class can be extended by multiple classes
+
+
+	    TesteBase
+			  driver
+
+			@BeforeMethod  {
+			  open browser
+			  maximizeBrowser
+			  implicitwait
+			  nevigateToURL
+			  }
+
+
+	    TestClass1 extends TestBase
+
+	    TestClass2 extends TestBase
+
+	    TestClass3 extends TestBase
+
+    	...
+
+    	BasePage
+    		constructor(){
+    			PageFactory.initElement(driver, this )
+    		}
+
+    	pages extends BasePage:
+    	
+    		@FindBy(xpath = "")
+    		WebEelement name;
+
+
+
+
+
+
+
+
+
+
