@@ -86,6 +86,31 @@ Java Boot Camp
 
 
 
+18. Is A relation VS Has A relation
+		
+		Is A relation: if the classes are in inheritance relation
+			class Car{
+
+			}
+
+			class Toyota extends Car{     Toyota Is A Car
+
+			}
+
+
+		Has A relation: if the class is used in another class that does not have Is A relation
+
+			ParkingLot{     ParkingLot Has A Toyota
+				Toyota
+				Car
+
+			}
+
+
+
+
+
+
 
 
 
