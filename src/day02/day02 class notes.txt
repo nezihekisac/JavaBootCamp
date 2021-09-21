@@ -262,16 +262,15 @@ Java Boot Camp
 				
 
 
+30. Map (I): key & value. key cannot be duplicated. dynamic sized. no index
+		
+		HashMap (C): order is random, accepts null
 
+		LinkedHashMap (C): insertion order is kept as it is. accepts null
 
+		HashTable (C): order is random, does not accepts null. synchronized==> thread-safe
 
-
-
-
-
-
-
-
+		TreeMap (C): ascending order, does not accept null
 
 
 
