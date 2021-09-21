@@ -4,6 +4,8 @@ public class CarShop { // CarShop Has A Tesla
 
     public static void main(String[] args) {
         Toyota toyota = new Toyota(2019, "Camry", "Black", 25000);
+       // toyota.make = "Honday";
+       // toyota.year = 2030;
 
         Honda honda = new Honda(2018, "Accord", "Blue", 28000);
 

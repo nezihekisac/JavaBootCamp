@@ -2,8 +2,9 @@ package day02.inheritance_abstraction;
 
 public class Car {
 
-    public int year;
-    public String make, model, color;
+    public final int year;
+    public final String make, model;
+    public String color;
     public double price;
 
     public Car(int year, String make, String model, String color, double price) { // initializes instances
@@ -14,11 +15,11 @@ public class Car {
         this.price = price;
     }
 
-    public void drive(){
+    public final void drive(){
         System.out.println("Driving "+make+" "+model);
     }
 
-    public void start(){
+    public  void start(){
         System.out.println("Twist the key to ignition");
     }
 
