@@ -236,5 +236,43 @@ Java Boot Camp
 
 
 
-29.
+29. Collection: size is dynamic. only supports non-primitives
+		
+		List (I): accepts duplicates, has index
+
+			ArrayList (C): Array based class. retriving the data is faster ( get() )
+
+			LinkedList (C): doublly linked. adding & removing are faster 
+
+			Vector (C): synchronized ===> thread-safe
+
+			Stack (C): synchronized ===> thread-safe. LIFO ( pop() )
+
+
+		Set (I): does not accept duplicates, does not have index
+
+			HashSet (C): order is not guaranted
+
+			LinkedHashSet (C): keeps the insertion order
+
+			TreeSet (C): ascending order. 
+
+
+		Queue (I): accepts duplicates, does not have index. FIFO ( poll() )
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
