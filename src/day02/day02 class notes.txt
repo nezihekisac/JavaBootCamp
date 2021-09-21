@@ -207,7 +207,22 @@ Java Boot Camp
 		
 		unchecked exception: occurs during the runtime
 
-		checked exception:
+		checked exception: occurs during compile time
+
+	throw: used for manually throw exception
+
+
+26. Exception handlings:
+
+			1. try & catch blocks: can handle unchecked & checked
+
+					try{
+						exception codes
+					}catch(ExceptionType){
+						e.printstackTrace()	
+					}
+
+			2. throws: can handle checked exception. used within the method signature
 
 
 
