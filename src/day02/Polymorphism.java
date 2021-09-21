@@ -17,7 +17,7 @@ public class Polymorphism {
 
         ((BMW) car2).massage();
 
-        ( (Mercedes)car2 ).massage();  // there MUST be IS A relation between object Type and reference type
+      //  ( (Mercedes)car2 ).massage();  // there MUST be IS A relation between object Type and reference type
 
 
 
