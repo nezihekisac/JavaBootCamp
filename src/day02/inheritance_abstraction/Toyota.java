@@ -8,5 +8,8 @@ public final class Toyota extends Car { //Toyota Is A Car
     }
 
 
-
+    @Override
+    public void start() {
+        System.out.println("Twist the key to ignition");
+    }
 }

@@ -5,4 +5,8 @@ public final class BMW extends Car{ // BMW Is A Car
         super(year, "BMW", model, color, price);
     }
 
+    @Override
+    public void start() {
+        System.out.println("Push the start button");
+    }
 }

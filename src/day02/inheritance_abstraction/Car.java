@@ -1,6 +1,6 @@
 package day02.inheritance_abstraction;
 
-public class Car {
+public abstract class Car {
 
     public final int year;
     public final String make, model;
@@ -19,9 +19,7 @@ public class Car {
         System.out.println("Driving "+make+" "+model);
     }
 
-    public  void start(){
-        System.out.println("Twist the key to ignition");
-    }
+    public abstract void start();
 
     @Override
     public String toString() {

@@ -130,10 +130,17 @@ Java Boot Camp
 
 
 
+21. Abstraction: hiding the implementation details
+				 putting teh focus on essentials without worrying about small details
 
 
+				 Abstract method: method without the body
+				 				  meant to be overriden (can not be final, private, static)
 
+				2 ways:
+					1. abstract class: meant to be super class
 
+					2. interface
 
 
 
