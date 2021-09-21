@@ -67,8 +67,22 @@ Java Boot Camp
     		WebEelement name;
 
 
+	CarTask
+			Car
+				make, model, color, year, price..
+				drive(), toString()
 
 
+			Toyota
+
+
+			Honda
+
+			Mercedes
+
+			BMW
+
+			Tesla
 
 
 
