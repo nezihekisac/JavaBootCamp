@@ -18,22 +18,6 @@ Java Boot Camp
 		14. Import Statements
 		15. Access Modifiers
 		16. OOP Encapsulations
-		17. OOP Inheritance
-		18. Is A vs Has A
-		19. Method Overriding
-		20. Final keyword
-		21. OOP Abstraction
-		22. Abstract Class vs Interface
-		23. OOP Polymorphism
-		24. Reference Type Castings: Upcasting vs DownCasting
-		25. Exceptions: checked & unchecked
-		26. Exception Handlings
-		27. final vs finally vs finalize
-		28. garbage collection & garbage collector
-		29. Collections: List, Set, Queue
-		30. Iteable & Iterator
-		31. Maps
-
 
 1. primitives:
 		byte < short < int < long < float < double
