@@ -2,6 +2,10 @@ package day02;
 
 public class ExceptionsPractice {
 
+    public void m(){
+     //   super.finalize();
+    }
+
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -45,6 +49,16 @@ public class ExceptionsPractice {
         }
 
         System.out.println("Hello");
+
+        System.out.println("---------------------------------");
+
+        String s = "Toyota";
+        s = "BMW";
+
+        System.out.println(s);
+
+        System.out.println("------------------------------------------");
+
 
 
 
