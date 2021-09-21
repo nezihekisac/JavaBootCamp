@@ -109,6 +109,8 @@ Java Boot Camp
 
 19. Method Overriding: giving different implementation to the method
 						
+						MUSt happen in subclass
+						
 						returnType, methodName, Parameters MUST be same
 
 						Access modifier MUST be same or more visible
