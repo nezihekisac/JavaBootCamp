@@ -6,4 +6,8 @@ public class Tesla extends Car{ // Tesla Is A Car
         super(year,"Tesla", model, color, price);
     }
 
+
+    public void start() {
+        System.out.println("Say start");
+    }
 }

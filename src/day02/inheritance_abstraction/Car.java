@@ -18,6 +18,10 @@ public class Car {
         System.out.println("Driving "+make+" "+model);
     }
 
+    public void start(){
+        System.out.println("Twist the key to ignition");
+    }
+
     @Override
     public String toString() {
         return "Car{" +

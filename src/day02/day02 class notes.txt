@@ -107,8 +107,14 @@ Java Boot Camp
 			}
 
 
+19. Method Overriding: giving different implementation to the method
+						
+						returnType, methodName, Parameters MUST be same
 
+						Access modifier MUST be same or more visible
 
+						we cannot override:
+								final, private, static
 
 
 
