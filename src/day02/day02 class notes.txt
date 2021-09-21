@@ -203,11 +203,15 @@ Java Boot Camp
 
 
 
-25. Exception chekced or unchecked
+25. Exceptions: chekced or unchecked
+		
+		unchecked exception: occurs during the runtime
+
+		checked exception:
 
 
 
-
+come back at 2:15 PM US EST
 
 
 
